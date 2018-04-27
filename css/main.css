@@ -2,19 +2,22 @@
 
 header {
   background-color: yellow;
-  height: 20vh;
+  height: 35vh;
+  overflow: hidden;
 }
 
 section {
   background-color: orange;
-  height: 60vh;
+  height: 55vh;
+  overflow: hidden;
 }
 
 footer {
   background-color: green;
-  height: 20vh;
+  height: 10vh;
   text-align: center;
   margin: 0;
+  overflow: hidden;
 }
 
 h1 {
@@ -29,25 +32,46 @@ p {
 
 html, body {
   margin: 0;
-  font-size: calc(13px + 1vw);
-
+  font-size: calc(14px + 1vw);
 }
-
-
 
 .container {
-  padding: 2em;
+  padding: 0.8em;
 }
-/*TYPOGRAPHY*/
-html{
-font-family: 'Righteous', cursive;
-}
-
-footer a {
-  text-decoration: none;
-  color: aqua;
-}
-
-h1{
-  font-family: 'Luckiest Guy', cursive;
-}
+    a {
+      margin: 1em;
+    }
+  /*TYPOGRAPHY*/
+  html {
+    font-family: 'Righteous', cursive;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+  }
+  /*Color*/
+  footer a {
+    color: aqua;
+  }
+  a:hover {
+    color: aquamarine;
+    text-shadow: aqua 2px 2px 1px;
+  }
+  h1 {
+    color: #0a75e1;
+  }
+  p {
+    color: white;
+  }
+  header {
+    background-color: black;
+  }
+  section {
+    background-color: #0a75e1;
+  }
+  footer {
+    background-color: black;
+  }
