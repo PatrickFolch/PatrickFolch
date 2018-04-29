@@ -38,40 +38,63 @@ html, body {
 .container {
   padding: 0.8em;
 }
-    a {
-      margin: 1em;
-    }
-  /*TYPOGRAPHY*/
-  html {
-    font-family: 'Righteous', cursive;
-  }
-  footer a {
-    text-decoration: none;
-  }
-  h1 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 2rem;
-  }
-  /*Color*/
-  footer a {
-    color: aqua;
-  }
-  a:hover {
-    color: aquamarine;
-    text-shadow: aqua 2px 2px 1px;
-  }
-  h1 {
-    color: #0a75e1;
-  }
-  p {
-    color: white;
-  }
-  header {
-    background-color: black;
-  }
-  section {
-    background-color: #0a75e1;
-  }
-  footer {
-    background-color: black;
-  }
+
+a {
+  margin: 1em;
+}
+
+/*TYPOGRAPHY*/
+
+html {
+  font-family: 'Righteous', cursive;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+}
+
+/*Color*/
+
+a{
+  color:white ;
+}
+
+a:hover {
+  color: silver;
+  text-shadow: white 2px 2px 1px;
+}
+
+footer a{
+  color: aqua;
+}
+
+footer a:hover {
+  color: aquamarine;
+  text-shadow: aqua 2px 2px 1px;
+}
+
+
+h1 {
+  color: #0a75e1;
+}
+
+p {
+  color: white;
+}
+
+header {
+  background-color: black;
+}
+
+section {
+  background-color: #0a75e1;
+}
+
+footer {
+  background-color: black;
+}
